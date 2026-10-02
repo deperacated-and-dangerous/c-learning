@@ -6,6 +6,7 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 
 add_executable(c_learning
         main.c
+        math.c
 )
 
 target_compile_options(c_learning PRIVATE
